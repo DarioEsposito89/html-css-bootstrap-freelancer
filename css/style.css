@@ -1,0 +1,22 @@
+header {
+    min-height: 300px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    min-height: 300px;
+}
+
+.icon-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    min-height: 40px;
+}
