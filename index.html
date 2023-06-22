@@ -11,115 +11,171 @@
     <title>Bootstrap Freelancer</title>
 </head>
 <body>
-    <header class="bg-primary pb-5">
-        <nav class="navbar bg-secondary mb-5">
-            <div class="container d-flex justify-content-center">
-                <div class="col fw-bold">START BOOTSTRAP</div>
-                <div class="col-1">PORTFOLIO</div>
-                <div class="col-1">ABOUT</div>
-                <div class="col-1">CONTACT</div>   
+    <header class="my-color-green pb-5">
+        <nav class="navbar navbar-expand-lg my-background-color-nav">
+            <div class="container d-flex align-items-center">
+                <a class="navbar-brand fw-bold my-color-white" href="#">START BOOTSTRAP</a>
+                <button class="btn btn-outline-light d-md-none ms-auto">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="list-unstyled d-none d-md-flex ms-auto">
+                    <li><a href="#" class="px-2">PORTFOLIO</a></li>
+                    <li><a href="#" class="px-2">ABOUT</a></li>
+                    <li><a href="#" class="px-2">CONTACT</a></li>
+                </ul>
             </div>
         </nav>
-        <div class="container d-flex justify-content-center">
+        <div class="container d-flex justify-content-center my-color-white">
             <div class="row d-flex justify-content-center">
-                <div class="col-3">
-                    <img src="img/avatar.svg" class="img-fluid" alt="">
+                <div class="col-4">
+                    <img src="img/avatar.svg" class=".avatar-img mb-3" alt="">
                 </div>
                 <h1 class="text-center fw-bold">START BOOTSTRAP</h1>
-                <i class="fa-solid fa-star text-center" style="color: #ffffff;"></i>
+                <div class="star-container d-flex align-items-center justify-content-center gap-3 my-font-size">
+                    <div class="col-2"><hr></div>
+                    <i class="fa-solid fa-star text-center" style="color: #ffffff;"></i>
+                    <div class="col-2"><hr></div>
+                </div>
                 <h2 class="text-center">GRAPHIC ARTIST - ART DESIGNER - ILLUSTRATOR</h2>
             </div>
         </div>
     </header>
 
     <main>
-        <section>
-            <div class="container py-4">
+        <section class="">
+            <div class="container">
                 <h1 class="text-center fw-bold">PORTFOLIO</h1>
-                <i class="text-center fa-solid fa-star" style="color: #000000;"></i>
-                <div class="row d-flex gap-0 row-gap-3">
-                    <div class="col-4">
-                        <img src="img/cabin.png" alt="">
+                <div class="star-container d-flex align-items-center justify-content-center gap-3 py-4 my-font-size">
+                    <div class="col-2"><hr></div>
+                    <i class="fa-solid fa-star text-center" style="color: #000000;"></i>
+                    <div class="col-2"><hr></div>
+                </div>
+                <div class="row gy-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card"><img src="img/cabin.png" alt=""></div>
                     </div>
-                    <div class="col-4">
-                        <img src="img/cake.png" alt="">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card"><img src="img/cake.png" alt=""></div>
                     </div>
-                    <div class="col-4">
-                        <img src="img/circus.png" alt="">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card"><img src="img/circus.png" alt=""></div>
                     </div>
-                    <div class="col-4">
-                        <img src="img/game.png" alt="">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card"><img src="img/game.png" alt=""></div>
                     </div>
-                    <div class="col-4">
-                        <img src="img/safe.png" alt="">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card"><img src="img/safe.png" alt=""></div>
                     </div>
-                    <div class="col-4">
-                        <img src="img/submarine.png" alt="">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card"><img src="img/submarine.png" alt=""></div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="bg-success py-5">
+        <section class="my-color-green my-color-white">
             <div class="container">
                 <h1 class="text-center fw-bold">ABOUT</h1>
-                <i class="fa-solid fa-star text-center" style="color: #ffffff;"></i>
-                <div class="row d-flex justify-content-center">
-                    <div class="col-3">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut nostrum placeat non ex aspernatur, pariatur eum provident reprehenderit minima iure qui tempora velit corrupti nemo quisquam repellat assumenda. Quaerat, id.</p>
-                    </div>
-                    <div class="col-3">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptas impedit asperiores, sint esse repudiandae minima excepturi consectetur reiciendis. Officia ex a pariatur blanditiis laboriosam maxime veniam dolor soluta eos!</p>
-                    </div>
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-2 p-3">
-                            <button type="button" class="btn btn-success btn-outline-light"><i class="fa-solid fa-download" style="color: #ffffff;"></i> Download</button>
+                <div class="star-container d-flex align-items-center justify-content-center gap-3 py-4 my-font-size">
+                    <div class="col-2"><hr></div>
+                    <i class="fa-solid fa-star text-center" style="color: #ffffff;"></i>
+                    <div class="col-2"><hr></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-10">
+                        <div class="row">
+                            <div class="col-md">
+                                <p>Freelancer is a free bootstrap theme created  by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization</p>
+                            </div>
+                            <div class="col-md">
+                                <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point.</p>
+                            </div>
                         </div>
-                    </div>
+                        <div class="mt-5 text-center">
+                            <button class="btn btn-outline-light"><i class="fas fa-download"></i> Download</button>
+                        </div>
+                    </div>    
                 </div>
             </div>
         </section>
 
-        <section class="py-5">
+        <section>
             <div class="container">
                 <h1 class="text-center fw-bold">CONTACT ME</h1>
-                <i class="fa-solid fa-star text-center" style="color: #000000;"></i>
-                <button type="button" class="btn btn-success d-block mt-3">Send</button>
+                <div class="star-container d-flex align-items-center justify-content-center gap-3 py-4 my-font-size">
+                    <div class="col-2"><hr></div>
+                    <i class="fa-solid fa-star text-center" style="color: #000000;"></i>
+                    <div class="col-2"><hr></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-10">
+                        <form action="">
+                            <div class="form-floating">
+                                <input type="email" class="form-control my-form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Name</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="email" class="form-control my-form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="password" class="form-control my-form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Phone Number</label>
+                            </div>
+                            <div class="form-floating">
+                                <textarea class="form-control my-form-control" placeholder="Leave a message here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">Message</label>
+                            </div>
+                        </form>
+                        <button type="button" class="btn btn-success d-block mt-3 my-color-green">Send</button>
+                    </div>
+                    
+                </div>
+                
             </div>
         </section>
     </main>
 
-    <footer class="bg-info py-5">
-        <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="col-4 text-center">
-                    <h3>LOCATION</h3>
-                    <span>2215 John Daniel Drive Clark, MO</span><br>
-                    <span>54243</span>
-                </div>
-                <div class="col-4 text-center">
-                    <h3>AROUND THE WEB</h3>
-                    <div class="social d-flex justify-content-center align-items-center gap-3">
-                        <div class="icon-social">
-                            <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
-                        </div>
-                        <div class="icon-social">
-                            <i class="fa-brands fa-google-plus-g" style="color: #ffffff;"></i>
-                        </div>
-                        <div class="icon-social">
-                            <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
-                        </div>
-                        <div class="icon-social">
-                            <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+    <footer>
+        <section class="bg-info my-color-white">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12 col-md-4 py-3 text-center">
+                        <h3>LOCATION</h3>
+                        <span>2215 John Daniel Drive Clark, MO</span><br>
+                        <span>54243</span>
+                    </div>
+                    <div class="col-12 col-md-4 py-3 text-center">
+                        <h3>AROUND THE WEB</h3>
+                        <div class="social d-flex justify-content-center align-items-center gap-3">
+                            <div class="icon-social">
+                                <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+                            </div>
+                            <div class="icon-social">
+                                <i class="fa-brands fa-google-plus-g" style="color: #ffffff;"></i>
+                            </div>
+                            <div class="icon-social">
+                                <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                            </div>
+                            <div class="icon-social">
+                                <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-4 text-center">
-                    <h3>ABOUT FREELANCER</h3>
-                    <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p>
-                </div>
+                    <div class="col-12 col-md-4 py-3 text-center">
+                        <h3>ABOUT FREELANCER</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p>
+                    </div>
+                </div>   
             </div>
-        </div>
+        </section>
+        <section class="my-background-color-nav my-color-white">
+            <div class="container">
+                <div class="row row d-flex justify-content-center">
+                    <div class="text-center">Copyright <i class="fa-regular fa-copyright" style="color: #ffffff;"></i> yuor website 2019</div>
+                </div>
+            </div>    
+        </section>
     </footer>
 </body>
 </html>

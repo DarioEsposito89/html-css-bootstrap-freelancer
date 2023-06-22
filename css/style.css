@@ -1,14 +1,45 @@
+:root {
+    --bs-info-rgb: 58, 84, 109;
+    --bs-info: #3a546d;
+    --bs-primary-rgb: 26, 188, 156;
+    --bs-primary: #1abc9c;
+}
+
+.my-color-white {
+    color: white;
+}
+
+.my-color-green {
+    background-color: #1abc9c;
+}
+
 header {
     min-height: 300px;
 }
 
-img {
-    height: 100%;
-    width: 100%;
+footer {
+    --bs-link-color-rgb: 26, 188, 156;
+}
+
+.my-font-size{
+    font-size: 2rem;
+}
+
+nav a {
+    --bs-link-color-rgb: 255, 255, 255;
+    text-decoration: none;
+}
+
+.avatar-img {
+    width: 200px;
 }
 
 section {
-    min-height: 300px;
+    padding: 2rem 0;
+}
+
+hr {
+    font-size: 1rem;
 }
 
 .icon-social {
@@ -19,4 +50,15 @@ section {
     aspect-ratio: 1/1;
     border-radius: 50%;
     min-height: 40px;
+}
+
+.my-form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    --bs-border-radius: 0;
+}
+
+.my-background-color-nav {
+    background-color: #2c3e50;
 }
