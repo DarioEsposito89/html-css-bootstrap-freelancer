@@ -13,10 +13,6 @@
     background-color: #1abc9c;
 }
 
-header {
-    min-height: 300px;
-}
-
 footer {
     --bs-link-color-rgb: 26, 188, 156;
 }
@@ -30,16 +26,8 @@ nav a {
     text-decoration: none;
 }
 
-.avatar-img {
-    width: 200px;
-}
-
 section {
     padding: 2rem 0;
-}
-
-hr {
-    font-size: 1rem;
 }
 
 .icon-social {
